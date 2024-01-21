@@ -1,0 +1,21 @@
+{
+  "name": "emstrg",
+  "version": "1.0.0",
+  "description": "This is API for employee data handeling",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Cryptid",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.0"
+  }
+}
+ 
